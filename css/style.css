@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 800px;
     margin: auto;
     padding-top: 110px;
 }
@@ -20,6 +20,7 @@ body {
 
     background-color: rgba(33, 63, 100, 0.69);
     position: relative;
+    box-shadow: -15px -5px 15px rgba(10, 22, 37, 0.8);
 }
 
 h1, h2, p {
