@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body {
+    height: 120vh;
+    background-color: #4a99d3;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding-top: 110px;
+}
+
+.list {
+    padding: 50px 75px;
+
+    background-color: rgba(33, 63, 100, 0.69);
+    position: relative;
+}
+
+h1, h2, p {
+    font-family: open sans, serif;
+    font-weight: 600;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.birds {
+    text-align-last: justify;
+    margin-top: 160px;
+    margin-bottom: 200px;
+    position: sticky;
+    bottom: 50px;
+
+}
+
+.birds img {
+    height: 110px;
+}
+
+.sky img {
+    position: absolute;
+}
+
+.sky2, .sky3, .sky4 {
+    opacity: .37;
+}
+
+.sky1 {
+    height: 130px;
+    z-index: 99;
+    top: -65px;
+    right: -125px;
+}
+
+.sky2 {
+    height: 160px;
+    width: 530px;
+    z-index: -1;
+    top: 75px;
+    left: -190px;
+}
+
+.sky3 {
+    height: 160px;
+    width: 530px;
+    z-index: -1;
+    top: 230px;
+    left: 460px;
+}
+
+.sky4 {
+    height: 100px;
+    width: 200px;
+    z-index: -1;
+    top: 280px;
+    left: 55px;
+}
+
+footer {
+    height: 120px;
+    background-image: url("../images/grass.png");
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    bottom: 0;
+}
+.social {
+    position: absolute;
+    left: -40px;
+    top: 0;
+}
+
+.social img {
+    position: fixed;
+/*    top: 0px;*/
+/*    margin-left: -115px;*/
+    /*z-index: 100;*/
+    /*width: 35px;*/
+    /*top: 110px;*/
+    /*left: 10%;*/
+    /*padding-top: 110px;*/
+}
+
+/*.social {*/
+/*    width: 10%;*/
+/*    position: relative;*/
+/*}*/
+
+/*.social img {*/
+/*    position: fixed;*/
+/*    z-index: 100;*/
+/*    width: 35px;*/
+/*    top: 0;*/
+/*    left: 8%;*/
+/*}*/
